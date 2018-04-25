@@ -1,0 +1,8 @@
+data = importdata('wage1.dat')
+wage = data.data(:,1)
+hist(wage)
+wage1 = log(wage)
+mean(wage1)
+std(wage1)
+size(wage1)
+2*(1-tcdf(abs(t),size(lwage,1)-1))
